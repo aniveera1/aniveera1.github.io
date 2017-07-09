@@ -1,5 +1,6 @@
 @font-face { font-family: quantify; src: url(lib/fonts/Quantify Bold v2.6.ttf); }
 @font-face { font-family: rale; src: url(lib/fonts/Raleway-Regular.ttf); }
+@font-face { font-family: open_sans; src: url(lib/fonts/OpenSans-SemiBold.ttf); }
 
 body { 
 	background: url(img/background.jpg) no-repeat center center fixed; 
@@ -65,7 +66,7 @@ body {
 }
 
 #name-text {
-	font-family: quantify;
+	font-family: open_sans, rale, Helvetica;
 	font-size: 30px;
 	letter-spacing: 1px;
 	color: white;
@@ -74,7 +75,7 @@ body {
 	width: 100%;	
 }
 #name-description {
-	font-family: rale;
+	font-family: rale, Helvetica;
 	font-size: 20px;
 	color: white;
 	text-align: center;
